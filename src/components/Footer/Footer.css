@@ -1,0 +1,191 @@
+/* =============================================
+   FOOTER
+   ============================================= */
+.footer-new {
+  background: #fff;
+  border-top: 1.5px solid var(--border);
+  padding: 80px 0 28px;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-inner-new {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.footer-logo-text {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.footer-col-title-new {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+.footer-links { list-style: none; }
+.footer-links li {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color var(--speed) var(--ease-smooth), transform var(--speed) var(--ease-smooth);
+  display: inline-block;
+}
+.footer-links li:hover { color: var(--orange); transform: translateX(4px); }
+.footer-links li.disabled { cursor: default; opacity: 0.5; transform: none; }
+.footer-links li.disabled:hover { color: var(--text-muted); }
+
+.footer-text { font-size: 14px; color: var(--text-muted); line-height: 1.7; }
+
+.footer-subscribe-box-new { display: flex; gap: 8px; margin-top: 14px; }
+.footer-subscribe-input-new {
+  flex-grow: 1;
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--text);
+  transition: border-color var(--speed) var(--ease-smooth);
+}
+.footer-subscribe-input-new:focus { outline: none; border-color: var(--violet); }
+
+.footer-socials { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.footer-social-link {
+  font-size: 11px;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  padding: 6px 14px;
+  border-radius: 50px;
+  border: 1.5px solid var(--border);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--speed) var(--ease-bounce);
+}
+.footer-social-link:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+  transform: translateY(-2px);
+  background: var(--orange-light);
+}
+.footer-social-link.hovered {
+  background: var(--orange-light);
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.footer-bottom {
+  border-top: 1.5px solid var(--border);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Extracted from inline styles */
+.footer-top-grid {
+  margin-bottom: 60px;
+  gap: 48px;
+}
+
+.footer-brand-desc {
+  max-width: 290px;
+  margin-bottom: 20px;
+}
+
+.footer-email {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.footer-location {
+  margin-top: 4px;
+}
+
+.footer-links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.footer-newsletter-desc {
+  margin-bottom: 16px;
+}
+
+.footer-subscribed-box {
+  background: var(--mint-light);
+  border: 1.5px solid var(--mint);
+  border-radius: 16px;
+  padding: 16px 20px;
+}
+
+.footer-subscribed-title {
+  font-size: 17px;
+  color: var(--mint);
+  margin: 0;
+}
+
+.footer-subscribed-sub {
+  font-size: 13px;
+  font-family: var(--font-body);
+  color: var(--text-muted);
+}
+
+.footer-subscribe-btn {
+  padding: 10px 18px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.footer-working-hours {
+  margin-top: 28px;
+}
+
+.footer-hours-title {
+  margin-bottom: 12px;
+}
+
+.footer-hours-text {
+  font-size: 13px;
+}
+
+.footer-divider {
+  border-top: 1.5px solid var(--border);
+  margin-bottom: 24px;
+}
+
+.footer-made-in {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.footer-made-in-dot {
+  width: 6px;
+  height: 6px;
+}
+
+@media (max-width: 768px) {
+  .footer-inner-new .grid-new-3 { grid-template-columns: 1fr 1fr; }
+}

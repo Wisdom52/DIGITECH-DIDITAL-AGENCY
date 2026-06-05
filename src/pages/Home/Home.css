@@ -1,0 +1,161 @@
+/* Extracted Styles for Home */
+
+.home-style-1 {
+  position: absolute;
+  top: 6%;
+  left: 2%;
+  z-index: 2;
+}
+
+.home-style-2 {
+  position: absolute;
+  top: 18%;
+  right: 3%;
+  z-index: 2;
+}
+
+.home-style-3 {
+  position: absolute;
+  top: 55%;
+  left: 1%;
+  z-index: 2;
+}
+
+.home-style-4 {
+  position: absolute;
+  top: 70%;
+  right: 2%;
+  z-index: 2;
+}
+
+.home-style-5 {
+  position: absolute;
+  top: 38%;
+  right: 5%;
+  z-index: 2;
+}
+
+.home-style-6 {
+  position: absolute;
+  top: 28%;
+  left: 5%;
+  z-index: 2;
+  opacity: 0.6;
+}
+
+.home-style-7 {
+  position: absolute;
+  top: 48%;
+  right: 9%;
+  z-index: 2;
+  opacity: 0.6;
+}
+
+.home-style-8 {
+  margin-bottom: 20px;
+}
+
+.home-style-9 {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.home-style-10 {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.home-style-11 {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.home-style-12 {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.home-style-13 {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.home-style-14 {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.home-style-15 {
+  padding-top: 0;
+}
+
+.home-style-16 {
+  flex-grow: 1;
+}
+
+.home-style-17 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.home-style-18 {
+  align-items: center;
+}
+
+.home-style-19 {
+  margin-bottom: 20px;
+}
+
+.home-style-20 {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.home-style-21 {
+  color: var(--violet);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.home-style-22 {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.home-style-23 {
+  color: var(--violet);
+  font-weight: 700;
+}
+
+.home-style-24 {
+  padding-bottom: 40px;
+}
+
+.home-style-25 {
+  text-align: center;
+  padding: 80px 40px;
+}
+
+.home-style-26 {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 16px;
+  color: var(--orange);
+}
+
+.home-style-27 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.home-style-28 {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 36px auto;
+}
+

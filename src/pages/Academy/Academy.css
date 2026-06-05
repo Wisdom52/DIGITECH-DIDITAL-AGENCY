@@ -1,0 +1,126 @@
+/* Extracted Styles for Academy */
+
+.academy-style-1 {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.academy-style-2 {
+  font-size: 24px;
+}
+
+.academy-style-3 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.academy-style-4 {
+  padding-top: 0;
+}
+
+.academy-style-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.academy-style-6 {
+  flex: 1;
+}
+
+.academy-style-7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.academy-style-8 {
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.academy-style-9 {
+  font-size: 21px;
+}
+
+.academy-style-10 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.academy-style-11 {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.academy-style-12 {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.academy-style-13 {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.academy-style-14 {
+  align-items: center;
+}
+
+.academy-style-15 {
+  margin-bottom: 20px;
+}
+
+.academy-style-16 {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.academy-style-17 {
+  margin-bottom: 32px;
+}
+
+.academy-style-18 {
+  text-align: left;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.academy-style-19 {
+  margin-bottom: 20px;
+}
+
+.academy-style-20 {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.academy-style-21 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.academy-style-22 {
+  padding: 64px 40px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.academy-style-23 {
+  font-size: 30px;
+  color: var(--mint);
+  margin-bottom: 16px;
+}
+
+.academy-style-24 {
+  max-width: 680px;
+  margin: 0 auto 32px auto;
+  font-size: 15px;
+}
+

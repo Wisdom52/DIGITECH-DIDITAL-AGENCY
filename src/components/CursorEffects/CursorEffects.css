@@ -1,0 +1,69 @@
+/* =============================================
+   CUSTOM CURSOR
+   ============================================= */
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: multiply;
+}
+
+.cursor-dot {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  background: var(--orange);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s var(--ease-smooth), width 0.3s var(--ease-bounce), height 0.3s var(--ease-bounce);
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.cursor-ring {
+  position: fixed;
+  width: 36px;
+  height: 36px;
+  border: 2px solid var(--orange);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.18s var(--ease-smooth);
+  pointer-events: none;
+  z-index: 9998;
+  opacity: 0.5;
+}
+
+body:hover .cursor-dot { opacity: 1; }
+
+/* Cursor grow on hover over interactive elements */
+body a:hover ~ .cursor-dot,
+body button:hover ~ .cursor-dot { width: 20px; height: 20px; }
+
+/* =============================================
+   SPARKLE / CONFETTI PARTICLES
+   ============================================= */
+.sparkle-particle {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9997;
+  border-radius: 50%;
+  animation: sparkle-fall 1s var(--ease-bounce) forwards;
+}
+
+@keyframes sparkle-fall {
+  0%   { transform: translate(0,0) scale(1); opacity: 1; }
+  100% { transform: translate(var(--tx), var(--ty)) scale(0); opacity: 0; }
+}
+
+.confetti-piece {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9996;
+  border-radius: 3px;
+  animation: confetti-burst 1.2s var(--ease-bounce) forwards;
+}
+
+@keyframes confetti-burst {
+  0%   { transform: translate(0, 0) rotate(0deg) scale(1); opacity: 1; }
+  100% { transform: translate(var(--tx), var(--ty)) rotate(var(--rot)) scale(0.3); opacity: 0; }
+}
