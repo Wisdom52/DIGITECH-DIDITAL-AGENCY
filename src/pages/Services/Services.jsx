@@ -134,7 +134,7 @@ const maintenancePlans = [
     badgeVariant: 'mint',
     features: [
       'Daily automated backups',
-      'Real-time advanced security tracking',
+      'Advanced security tracking',
       'M-Pesa API health checking',
       '5 hours priority developer support',
       'Guaranteed 12-hour urgent response',
@@ -145,7 +145,7 @@ const maintenancePlans = [
 const variantMap = {
   orange: { badge: 'badge-soft-orange', card: 'clay-card-orange', btn: 'clay-btn-orange', accent: 'var(--orange)' },
   violet: { badge: 'badge-soft-violet', card: 'clay-card-violet', btn: 'clay-btn-violet', accent: 'var(--violet)' },
-  mint:   { badge: 'badge-soft-mint',   card: 'clay-card-mint',   btn: 'clay-btn-mint',   accent: 'var(--mint)' },
+  mint: { badge: 'badge-soft-mint', card: 'clay-card-mint', btn: 'clay-btn-mint', accent: 'var(--mint)' },
   banana: { badge: 'badge-soft-banana', card: 'clay-card-banana', btn: 'clay-btn-orange', accent: 'var(--banana)' },
 };
 
@@ -168,7 +168,7 @@ export default function Services({ setCurrentPage }) {
         </h1>
         <p className="page-subtitle-new">
           Raw power for your digital infrastructure. Transparent rates.
-          Zero guesswork. We design frameworks that deliver results.
+          Zero guesswork. <br /> We design frameworks that deliver results.
         </p>
       </header>
 
@@ -176,8 +176,8 @@ export default function Services({ setCurrentPage }) {
       <div className="tab-row">
         {[
           { id: 'software', label: '⚙ Software Engineering' },
-          { id: 'design',   label: '🎨 Graphic Design Rates' },
-          { id: 'support',  label: '🛡 Maintenance Plans' },
+          { id: 'design', label: '✐ Graphic Design Rates' },
+          { id: 'support', label: '🛡 Maintenance Plans' },
         ].map(tab => (
           <button
             key={tab.id}
@@ -226,9 +226,17 @@ export default function Services({ setCurrentPage }) {
                     ))}
                   </ul>
 
-                  <button
+                  {/* <button
                     className={`clay-btn ${v.btn}`}
                     className="services-style-8"
+                    onClick={(e) => handleCTA(e, 'contact')}
+                    id={`initiate-${tier.id}`}
+                  >
+                    Initiate Scoping
+                    <span className="material-symbols-outlined">arrow_forward</span>
+                  </button> */}
+                  <button
+                    className={`clay-btn ${v.btn} services-style-8`}
                     onClick={(e) => handleCTA(e, 'contact')}
                     id={`initiate-${tier.id}`}
                   >
@@ -261,7 +269,9 @@ export default function Services({ setCurrentPage }) {
             <div className="clay-card clay-card-orange stagger-child">
               <span className="page-label-new services-style-13">Specialist Options</span>
               <p className="footer-text services-style-14">
-                Motion Graphics · Product Packaging Design · Web UI/UX High-Fidelity Prototyping.
+              · Product Packaging Design 
+              < br />
+              · Web UI/UX High-Fidelity Prototyping.
               </p>
               <p className="handwritten services-style-15">
                 Rates via direct scoped consultation.
@@ -302,9 +312,16 @@ export default function Services({ setCurrentPage }) {
                     ))}
                   </ul>
 
-                  <button
+                  {/* <button
                     className={`clay-btn ${v.btn}`}
                     className="services-style-24"
+                    onClick={(e) => handleCTA(e, 'contact')}
+                    id={`maintenance-${i}`}
+                  >
+                    Get Started
+                  </button> */}
+                    <button
+                    className={`clay-btn ${v.btn} services-style-24`}
                     onClick={(e) => handleCTA(e, 'contact')}
                     id={`maintenance-${i}`}
                   >

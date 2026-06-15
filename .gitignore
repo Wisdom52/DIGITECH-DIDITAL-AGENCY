@@ -1,3 +1,13 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production / Builds
+dist/
+dist-ssr/
+build/
+
 # Logs
 logs
 *.log
@@ -7,18 +17,48 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# Editor directories and files
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# Caches and tool-specific directories
+.eslintcache
+.stylelintcache
+.vite/
+.parcel-cache/
+.cache/
+.turbo/
+
+# Environment configurations (Keep environment variables secret!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+
+# System / OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and Editors
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+.classpath
+.project
+.settings/
+

@@ -39,7 +39,7 @@ export default function Footer({ setCurrentPage }) {
             </div>
             <p className="footer-text footer-brand-desc">
               An integrated self-sustaining tech ecosystem blending premium engineering services with live,
-              mentored talent development pipelines for Kenya & the East African Community.
+              mentored talent development pipelines for Kenya and the African Community.
             </p>
             <p className="footer-text footer-email">info@digitech.co.ke</p>
             <p className="footer-text">+254 700 875 540</p>
@@ -126,7 +126,7 @@ export default function Footer({ setCurrentPage }) {
             <div className="footer-working-hours">
               <h4 className="footer-col-title-new footer-hours-title">Working Hours</h4>
               <p className="footer-text footer-hours-text">Mon – Fri: 8:00 AM – 5:00 PM</p>
-              <p className="footer-text footer-hours-text">1447-80200, Malindi, Kenya</p>
+              <p className="footer-text footer-hours-text">1447 - 80200, Malindi, Kenya</p>
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@ export default function Footer({ setCurrentPage }) {
           <span>© 2026 Digitech Digital Agency. All Rights Reserved.</span>
           <div className="footer-made-in">
             <span className="logo-dot footer-made-in-dot" />
-            <span>Engineered in Malindi, Kenya</span>
+            {/* <span>Engineered in Malindi, Kenya</span> */}
           </div>
           <span>Absolute System Copyright Security</span>
         </div>

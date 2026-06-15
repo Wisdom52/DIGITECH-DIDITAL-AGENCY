@@ -15,8 +15,8 @@ import './index.css';
 const MARQUEE_ITEMS = [
   'Custom Software', 'Brand Identity', 'M-Pesa Integration',
   'Tech Talent Lab', 'Web Engineering', 'Motion Design',
-  'UI / UX Strategy', 'E-Commerce', 'API Architecture',
-  'Mechatronics', 'Cloud Infrastructure', 'Digital Strategy',
+  'UI / UX Design', 'E-Commerce', 'API Architecture',
+  'Makerspace & Robotics','Networking & Cyber Security', 'Digital Media & Content Strategy',
 ];
 
 function MarqueeBanner() {
@@ -59,7 +59,7 @@ export default function App() {
       case 'home':      return <Home setCurrentPage={setCurrentPage} />;
       case 'services':  return <Services setCurrentPage={setCurrentPage} />;
       case 'academy':   return <Academy setCurrentPage={setCurrentPage} />;
-      case 'portfolio': return <Portfolio setCurrentPage={setCurrentPage} />;
+      // case 'portfolio': return <Portfolio setCurrentPage={setCurrentPage} />;
       case 'about':     return <About setCurrentPage={setCurrentPage} />;
       case 'contact':   return <Contact />;
       default:          return <Home setCurrentPage={setCurrentPage} />;

@@ -44,7 +44,7 @@
   margin-bottom: 10px;
   cursor: pointer;
   transition: color var(--speed) var(--ease-smooth), transform var(--speed) var(--ease-smooth);
-  display: inline-block;
+  display: block;
 }
 .footer-links li:hover { color: var(--orange); transform: translateX(4px); }
 .footer-links li.disabled { cursor: default; opacity: 0.5; transform: none; }

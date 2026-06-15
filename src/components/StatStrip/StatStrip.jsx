@@ -41,7 +41,7 @@ function AnimatedCounter({ target, suffix = '', duration = 1800 }) {
 
 const stats = [
   { num: 50,  suffix: '+', label: 'Projects Shipped'    },
-  { num: 4,   suffix: '',  label: 'Training Tracks'     },
+  { num: 4,   suffix: '',  label: 'Digitech Training Tracks'     },
   { num: 100, suffix: '%', label: 'Client Retention'    },
   { num: 3,   suffix: 'x', label: 'Average ROI'         },
 ];

@@ -188,7 +188,7 @@ export default function Home({ setCurrentPage }) {
 
         <p className="hero-subtitle-new">
           We are a premium software engineering, brand identity, and technical talent studio.
-          We build vibrant systems and train elite tech professionals 
+          We build vibrant systems and train elite tech professionals for a brighter, better digital future.
         </p>
 
         <div className="hero-ctas-new">
@@ -203,7 +203,7 @@ export default function Home({ setCurrentPage }) {
           <button
             className="clay-btn clay-btn-white"
             id="hero-cta-secondary"
-            onClick={(e) => handleCTAClick(e, 'services')}
+            onClick={(e) => handleCTAClick(e, 'portfolio')}
           >
             See our work
           </button>
@@ -275,8 +275,7 @@ export default function Home({ setCurrentPage }) {
             </div>
             <h3>Continuous Engineering Support</h3>
             <p className="footer-text home-style-13">
-              Around-the-clock passive architecture, automated real-time security tracking, and regular
-              database updates ensure zero downtime for your enterprise.
+              Around-the-clock security, automatic tracking, and regular updates mean your system is always online
             </p>
             <div className="home-style-14">
               <span className="badge-soft badge-soft-mint">Real-time Security</span>
@@ -312,7 +311,7 @@ export default function Home({ setCurrentPage }) {
           {[
             {
               n: '01', title: 'The Deep-Dive Alignment (Week 1)',
-              body: 'A dedicated strategic workshop to map your market positioning, tear down competitor weaknesses, and lock in your creative direction before a single pixel is drawn.'
+              body: 'A dedicated strategic workshop to map your market positioning, tear down competitor weaknesses, and lock in your creative direction to understand your wants and needs before a single pixel is drawn.'
             },
             {
               n: '02', title: 'Core Architecture & Concepts (Weeks 2–3)',
@@ -347,7 +346,7 @@ export default function Home({ setCurrentPage }) {
               The Lab: Where global tech careers are built.
             </h2>
             <p className="footer-text home-style-20">
-              Digitech Lab is our intensive training division — built to accelerate real-world developer
+              The Digitech Lab is our intensive training division — built to accelerate real-world developer
               capability through production-level pipelines, under direct mentorship from our active workforce.
             </p>
             <button
@@ -365,9 +364,9 @@ export default function Home({ setCurrentPage }) {
             </h3>
             {[
               '4 Specialized Technical Tracks',
-              'Hands-on mechatronics & physical hardware',
+              'Hands-on Robotics,Network & physical hardware',
               'Direct pathway to Digitech Agency internships',
-              'Highly rigorous deployment-first syllabus',
+              'Highly rigorous practical-based syllabus',
               'Mentored by active industry professionals',
             ].map((item, i) => (
               <p key={i} className="footer-text home-style-22">

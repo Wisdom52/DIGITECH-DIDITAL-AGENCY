@@ -12,7 +12,7 @@ const pillars = [
   },
   {
     title: 'Our Mission',
-    desc: 'To provide impeccable, payment-gateway-integrated software services while accelerating real-world technical skills through an intensive, production-driven workspace.',
+    desc: 'To provide impeccable, Meaningful features integrated software services while accelerating real-world technical skills through an intensive, production-driven workspace.',
     icon: 'rocket_launch',
     colorClass: 'violet',
     badgeVariant: 'badge-soft-violet',
@@ -28,13 +28,13 @@ const values = [
   },
   {
     name: 'Artistic Autonomy',
-    desc: 'We reject sterile corporate design defaults. We craft bold visual statements with high-precision aesthetics that command attention.',
+    desc: 'We reject boring corporate design defaults. We craft bold visual statements with high-precision aesthetics that command attention.',
     badge: 'badge-soft-violet',
     icon: 'brush',
   },
   {
     name: 'Milestone-Driven Accountability',
-    desc: 'Deliverables are lock-stepped with milestone visibility throughout the active workflow. Full transparency at every stage.',
+    desc: 'You always see exactly what we are delivering at every stage of the project through active workflow. Full transparency at every stage.',
     badge: 'badge-soft-mint',
     icon: 'track_changes',
   },
@@ -50,7 +50,7 @@ const cycleSteps = [
   { icon: 'business_center', label: 'Commercial Projects', color: 'var(--orange)', bg: 'var(--orange-light)' },
   { icon: 'currency_exchange', label: 'Fund Lab Scholarships', color: 'var(--violet)', bg: 'var(--violet-light)' },
   { icon: 'school', label: 'Graduate Elite Talent', color: 'var(--mint)', bg: 'var(--mint-light)' },
-  { icon: 'engineering', label: 'Join Agency Workforce', color: 'var(--banana)', bg: 'var(--banana-light)' },
+  { icon: 'engineering', label: 'Join Agency for Internship', color: 'var(--banana)', bg: 'var(--banana-light)' },
 ];
 
 export default function About({ setCurrentPage }) {

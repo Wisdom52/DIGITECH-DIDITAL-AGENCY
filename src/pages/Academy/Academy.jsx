@@ -6,9 +6,9 @@ const tracks = [
   {
     num: '01',
     title: 'Software Application Development',
-    focus: 'Full-stack engineering mastery.',
-    desc: 'Students advance past academic code into production pipelines — structured relational/non-relational database design (PostgreSQL, MongoDB), clean system logic architecture, API endpoint writing, and real-world repository management.',
-    skills: ['React & Node.js', 'PostgreSQL', 'MongoDB', 'REST APIs', 'Git Workflows'],
+    focus: 'Website & Full-stack engineering mastery.',
+    desc: 'Students advance past academic code into production pipelines — structured relational/non-relational database design (SQL, MongoDB), clean system logic architecture, API endpoint writing, and real-world repository management.',
+    skills: ['HTML, CSS & JavaScript','SQL/NoSQL', 'React & Vue', 'Node.js/REST APIs/', 'Git Workflows'],
     badgeVariant: 'orange',
     icon: 'terminal',
     color: 'var(--orange)',
@@ -19,7 +19,7 @@ const tracks = [
     title: 'System Security & Infrastructure',
     focus: 'Advanced defensive network operations.',
     desc: 'Modern network hardening, full data encryption deployment (in-transit and at-rest), active server performance tuning, daily malware protection frameworks, and designing automated database replication with secure system recovery plans.',
-    skills: ['Network Hardening', 'Data Encryption', 'Server Tuning', 'Malware Protection', 'DB Replication'],
+    skills: ['Hardware Assembly & Troubleshooting','Python Scripting', 'Networking', 'Cybersecurity', 'Data Protection'],
     badgeVariant: 'violet',
     icon: 'shield_lock',
     color: 'var(--violet)',
@@ -30,7 +30,7 @@ const tracks = [
     title: 'Makerspace & Robotics',
     focus: 'Physical computing and industrial hardware integration.',
     desc: 'Programming micro-controllers, structural automation system creation, circuit design, and Internet of Things (IoT) field implementation pipelines — bridging software logic and physical hardware.',
-    skills: ['Micro-controllers', 'Automation Systems', 'Circuit Design', 'IoT Pipelines', 'Physical Computing'],
+    skills: ['Electronics & Circuit Basics', 'Robotics Kinematics & Sensors', 'Advanced 3D Printing', 'IoT Pipelines'],
     badgeVariant: 'banana',
     icon: 'precision_manufacturing',
     color: 'var(--banana)',
@@ -41,7 +41,7 @@ const tracks = [
     title: 'Digital Media & Content Strategy',
     focus: 'High-impact creative marketing and layout design.',
     desc: 'Advanced brand typography, high-fidelity UI/UX wireframing, high-conversion copywriting, and multi-channel campaign deployment strategy — producing creative professionals who understand both design and data.',
-    skills: ['Brand Typography', 'UX/UI Wireframing', 'Copywriting', 'Campaign Metrics', 'Layout Design'],
+    skills: ['Graphics Design', 'Photography & Videography', 'Social Media MArketing', 'Brand Management','Social Media Ads & Analytics'],
     badgeVariant: 'pink',
     icon: 'palette',
     color: 'var(--pink)',
@@ -85,8 +85,8 @@ export default function Academy({ setCurrentPage }) {
           Lab Pipeline Sequence: Connected ✦
         </h3>
         <p className="manifesto-body academy-style-3">
-          Our laboratory mimics a live development studio. No hypothetical assignments.
-          We deploy real systems that solve real regional bottlenecks.
+          Our laboratory mimics a live real world development Environment. No hypothetical assignments.
+          We teach, develop, deploy and maintain real systems that solve real regional bottlenecks.
         </p>
       </div>
 
@@ -191,8 +191,8 @@ export default function Academy({ setCurrentPage }) {
             </p>
             {[
               { icon: 'school',         label: 'Merit-based scholarship pathways' },
-              { icon: 'groups',         label: 'Small cohort sizes (max 15 per intake)' },
-              { icon: 'calendar_month', label: 'Flexible intake windows per quarter' },
+              { icon: 'groups',         label: 'Small cohort sizes (max 30 per intake)' },
+              { icon: 'calendar_month', label: 'Flexible intake windows' },
               { icon: 'workspace_premium', label: 'Certificate on successful completion' },
             ].map((item, i) => (
               <div key={i} className="academy-style-20">
